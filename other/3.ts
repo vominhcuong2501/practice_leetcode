@@ -34,7 +34,7 @@ isPalindrome1(121);
 // 🧠 Ý tưởng:
 // đảo số bằng toán học
 // so sánh với số ban đầu
-function isPalindrome(x: number): boolean {
+function isPalindrome2(x: number): boolean {
   if (x < 0) return false;
 
   let original = x;
